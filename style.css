@@ -1,0 +1,45 @@
+body {
+    background-color: #ad8bfb;
+  }
+  img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20%;
+  }
+  h1 {
+   text-align: center;
+   color: #ffff;
+   font: san-serif;
+   font-family: 'Roboto', sans-serif; 
+   font-weight: bold; 
+   font-size: 3rem; 
+  }
+  
+  #app {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;   
+  }
+  
+  .movie {
+   width: 400px;
+    height: 100%;
+   font-family: 'Roboto', sans-serif; 
+   padding: 1%; 
+   margin: 5%;
+  background: -webkit-linear-gradient(to right, #edff47, #fffb05);  
+  background: linear-gradient(to right, #edff47, #faf606);   
+  }
+  
+  .character { 
+  color: black;
+  text-align:left; 
+  font-size: 1.6rem;
+  }
+  
+  .quote {
+  color: black;
+  text-align: center; 
+  font-size: 1.3rem;
+  }
