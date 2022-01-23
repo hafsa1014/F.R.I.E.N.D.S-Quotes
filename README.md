@@ -3,5 +3,7 @@ Friends is an American television sitcom , which aired on NBC from 1994, lasting
 
 
 I have created a F.R.I.E.N.D.S Quote Generator using HTML,CSS and Javascript.
+## Link
+https://hafsa1014.github.io/F.R.I.E.N.D.S-Quotes/
 
 
