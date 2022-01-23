@@ -37,8 +37,7 @@ body {
     margin: 2em;
     padding: 2em;
     cursor: pointer;
-   
-   background:yellow;
+    background:yellow;
     text-decoration: none;
     color: rgb(198, 124, 241);
     -webkit-tap-highlight-color: rgba(215, 119, 240, 0);
