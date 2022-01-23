@@ -5,7 +5,7 @@ body {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 20%;
+      width: 30%;
   }
   h1 {
    text-align: center;
@@ -20,26 +20,40 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;   
+  
   }
   
   .movie {
    width: 400px;
-    height: 100%;
-   font-family: 'Roboto', sans-serif; 
-   padding: 1%; 
-   margin: 5%;
+    height: 150%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   padding: 3%; 
+   margin: 3%;
   background: -webkit-linear-gradient(to right, #edff47, #fffb05);  
-  background: linear-gradient(to right, #edff47, #faf606);   
-  }
+  background: linear-gradient(to right, #edff47, #faf606); 
   
+  }
+  .movie:hover {
+    margin: 2em;
+    padding: 2em;
+    cursor: pointer;
+   
+   background:yellow;
+    text-decoration: none;
+    color: rgb(198, 124, 241);
+    -webkit-tap-highlight-color: rgba(215, 119, 240, 0);
+    -webkit-font-smoothing: antialiased;
+  }
   .character { 
-  color: black;
-  text-align:left; 
-  font-size: 1.6rem;
-  }
-  
-  .quote {
-  color: black;
-  text-align: center; 
-  font-size: 1.3rem;
-  }
+    color: #6c32f1;
+    text-align:left; 
+    font-size: 1.6rem;
+    font-weight: 700;
+    }
+    
+    .quote {
+    color: #6c32f1;
+    text-align: center; 
+    font-size: 1.3rem;
+    font-weight: 400;
+    }
